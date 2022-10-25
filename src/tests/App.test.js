@@ -39,7 +39,7 @@ describe('1. Teste o componente <App.js />', () => {
     const { location: { pathname } } = history;
     expect(pathname).toBe('/favorites');
   });
-  test('Teste se a aplicação é redirecionada para a página Not Found ao entrar em uma URL desconhecida:', () => {
+  test('1.4) Teste se a aplicação é redirecionada para a página Not Found ao entrar em uma URL desconhecida:', () => {
     // Acessar
     const { history } = renderWithRouter(<App />);
     // Agir ou interagir
