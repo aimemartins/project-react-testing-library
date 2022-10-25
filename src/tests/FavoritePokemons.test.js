@@ -1,5 +1,4 @@
-import { screen, act } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
+import { screen } from '@testing-library/react';
 import React from 'react';
 import { FavoritePokemons } from '../pages';
 import renderWithRouter from '../renderWithRouter';
